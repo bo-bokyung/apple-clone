@@ -1,0 +1,9 @@
+.grid-container {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(4 1fr);
+    grid-template-rows: repeat(2fr 1fr 1fr 1fr 1fr 1fr);
+    /* grid-column-gap: ;
+    grid-row-gap: ;
+    grid-template-areas: ;
+} */
