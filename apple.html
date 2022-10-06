@@ -54,48 +54,65 @@
         <div class="chapter-nav-wrapper">
             <ul class="chapter-nav-container">
                 <li class="chapter-nav-items">
-                    <a href="#" class="click-chapter-nav">Airpods<br>2세대</a>
+                    <a href="#" class="click-chapter-nav">
+                        <figure class="chapter-img"></figure>
+                        <p class="chapter-text">AirPods<br>2세대</p>
+                    </a>
                 </li>
             </ul>
             <ul class="chapter-nav-container">
                 <li class="chapter-nav-items">
-                    <a href="#" class="click-chapter-nav">Airpods<br>3세대</a>
+                    <a href="#" class="click-chapter-nav">
+                        <figure class="chapter-img"></figure>
+                        <p class="chapter-text">AirPods<br>3세대</p>
+                    </a>
                 </li>
             </ul>
             <ul class="chapter-nav-container">
                 <li class="chapter-nav-items">
-                    <a href="#" class="click-chapter-nav">Airpods Pro<br>2세대</a>
+                    <a href="#" class="click-chapter-nav">
+                        <figure class="chapter-img"></figure>
+                        <p class="chapter-text">AirPods Pro<br>3세대</p>
+                        <p class="chapter-text-new">New</p>
+                    </a>
                 </li>
             </ul>
             <ul class="chapter-nav-container">
                 <li class="chapter-nav-items">
-                    <a href="#" class="click-chapter-nav">Airpods Max</a>
+                    <a href="#" class="click-chapter-nav">
+                            <figure class="chapter-img"></figure>
+                            <p class="chapter-text">AirPods Max</p>
+                    </a>
                 </li>
             </ul>
             <ul class="chapter-nav-container">
                 <li class="chapter-nav-items">
-                    <a href="#" class="click-chapter-nav">비교하기</a>
+                    <a href="#" class="click-chapter-nav">
+                        <figure class="chapter-img"></figure>
+                        <p class="chapter-text">비교하기</p>
+                    </a>
                 </li>
             </ul>
             <ul class="chapter-nav-container">
                 <li class="chapter-nav-items">
-                    <a href="#" class="click-chapter-nav">Apple Music</a>
+                    <a href="#" class="click-chapter-nav">
+                        <figure class="chapter-img"></figure>
+                        <p class="chapter-text">Apple Music</p>
+                    </a>
                 </li>
             </ul>
-        </div>
-        <div class="chapter-more">
-            <!-- * span으로 어케 하는지 질문하기 -->
-            <p>Airpods을 구입하면 Apple Music이 6개월 무료.*<a href="#">더 알아보기</a></p>
         </div>
     </nav>
+
+    <div class="chapter-more">
+        <p>Airpods을 구입하면 Apple Music이 6개월 무료.*<a href="#">더 알아보기</a></p>
+    </div>
+    
     <section class="main-video">
         <div class="main-main-text">
             <p class="main-video-subtext">완전히 새로운</p>
             <h2 class="main-video-name">AirPods Pro</h2>
             <p class="main-video-price">￦359,000</p>
-        </div>
-        <div class="main-middle-text">
-            <p class="middle-text-p">출시일은 추후 공개됩니다.</p>
         </div>
         <div class="main-bottom-text">
             <a class="video-go-price">
@@ -105,8 +122,14 @@
                 <a href="#">더 알아보기</a>
             </div>
         </div>
+        <button class="stop-button">
+
+        </button>
     </section>
     <section class="airpods-3gen">
+        <picture id="main-airpods-3gen-pic">
+            <img src="img/main-airpods-1.jpg" alt="air-3gen">
+        </picture>
         <div class="3gen-mian-text">
             <h2 class="main-3gen-name">AirPods</h2>
             <p class="main-3gen-text">3세대</p>
@@ -124,6 +147,12 @@
 
 
     <section class="airpods-2gen">
+        <picture id="main-airpods-2gen-left-pic">
+            <img src="img/main-airpods-left.png" alt="air-left">
+        </picture>
+        <picture id="main-airpods-2gen-right-pic">
+            <img src="img/main-airpods-right.png" alt="air-right">
+        </picture>
         <div class="2gen-mian-text">
             <h2 class="main-2gen-name">AirPods</h2>
             <p class="main-2gen-text">2세대</p>
@@ -139,6 +168,9 @@
         </div>
     </section>
     <section class="airpods-max">
+        <picture id="main-airpods-max-pic">
+            <img src="img/main-airpods-max.png" alt="air-max">
+        </picture>
         <div class="max-mian-text">
             <h2 class="main-max-name">AirPods Max</h2>
             <p class="main-max-price">￦769,000</p>
@@ -152,7 +184,7 @@
             </div>
         </div>
     </section>
-    <!-- 내용이랑 플러스 디브 만들기 -->
+    
     <section class="slide-container">
         <div class="slid-text">
             <h2 class="slide-main-text">기기에 바로 연결되는<br>매혹적인 경험.</h2>
@@ -184,7 +216,7 @@
 
             <li class="slide-item">
                 <div class="item-img">
-                    <picture id="audio sharing">
+                    <picture id="audio-sharing">
                         <img src="img/slide-3.jpg" alt="오디오 공유">
                     </picture>
                 </div>
@@ -230,13 +262,15 @@
                 <span class="plus"></span>
             </li>
         </ul>
+        <button class="sild-back"></button>
+        <button class="sild-front"></button>
     </section>
 
     <section class="grid-container">
         <div class="gird-1">
-            <div class="airpods-pic">
-                <a href="#"></a>
-            </div>
+            <figure class="airpods-pic">
+                <a href=""></a>
+            </figure>
             <div class="airpods-info">
                 <h3 class="airpods-name">AirPods</h3>
                 <span class="airpods-gen">2세대</span>
@@ -266,9 +300,9 @@
 
         <div class="gird-5">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
-
-                </div>
+                <figure class="airpods-img">
+                   
+                </figure>
                 <span class="wrapper-text">
                     Lightning 충전 케이스
                 </span>
@@ -277,9 +311,9 @@
 
         <div class="gird-6">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
-
-                </div>
+                <figure class="airpods-img">
+                    
+                </figure>
                 <span class="wrapper-text">
                     한 번 충전으로<br>최대 5시간 청취 가능
                 </span>
@@ -287,9 +321,9 @@
         </div>
 
         <div class="gird-7">
-            <div class="airpods-pic">
+            <figure class="airpods-pic">
                 <a href="#"></a>
-            </div>
+            </figure>
             <div class="airpods-info">
                 <h3 class="airpods-name">AirPods 3세대</h3>
                 <span class="airpods-gen">3세대</span>
@@ -301,9 +335,9 @@
 
         <div class="gird-8">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     동적 머리 추적 기술로<br>구현되는 개인 맞춤형 공간 음향
                 </span>
@@ -318,9 +352,9 @@
 
         <div class="gird-10">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     땀과 습기에 강한<br>생활 방수 디자인
                 </span>
@@ -329,9 +363,9 @@
 
         <div class="gird-11">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     Lightning 충전 케이스 또는<br>MagSafe 충전 케이스
                 </span>
@@ -340,9 +374,9 @@
 
         <div class="gird-12">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     한 번 충전으로<br>최대 6시간 청취 가능
                 </span>
@@ -350,9 +384,9 @@
         </div>
 
         <div class="gird-13">
-            <div class="airpods-pic">
+            <figure class="airpods-pic">
                 <a href="#"></a>
-            </div>
+            </figure>
             <div class="airpods-info">
                 <span class="airpods-new">New</span>
                 <h3 class="airpods-name">AirPods Pro</h3>
@@ -365,9 +399,9 @@
 
         <div class="gird-14">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     동적 머리 추적 기술로<br>구현되는 개인 맞춤형 공간 음향
                 </span>
@@ -376,9 +410,9 @@
 
         <div class="gird-15">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     액티브 노이즈 캔슬링과<br>적응형 주변음 혀용 모드
                 </span>
@@ -387,9 +421,9 @@
 
         <div class="gird-16">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     땀과 습기에 강한<br>생활 방수 디자인
                 </span>
@@ -398,9 +432,9 @@
 
         <div class="gird-17">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     스피커 및 랜야드 루프를 갖춘<br>MagSafe 충전 케이스
                 </span>
@@ -409,9 +443,9 @@
 
         <div class="gird-18">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     한 번 충전으로<br>최대 6시간 청취 가능
                 </span>
@@ -419,9 +453,9 @@
         </div>
 
         <div class="gird-19">
-            <div class="airpods-pic">
+            <figure class="airpods-pic">
                 <a href="#"></a>
-            </div>
+            </figure>
             <div class="airpods-info">
                 <h3 class="airpods-name">AirPods Max</h3>
                 <p class="airpods-price">￦769,000</p>
@@ -432,9 +466,9 @@
 
         <div class="gird-20">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     동적 머리 추적 기술로<br>구현되는 개인 맞춤형 공간 음향
                 </span>
@@ -443,9 +477,9 @@
 
         <div class="gird-21">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     액티브 노이즈 캔슬링과<br>주변음 허용 모드
                 </span>
@@ -460,9 +494,9 @@
 
         <div class="gird-23">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     Smart Case
                 </span>
@@ -471,9 +505,9 @@
 
         <div class="gird-24">
             <div class="airpods-img-wrapper">
-                <div class="airpods-img">
+                <figure class="airpods-img">
 
-                </div>
+                </figure>
                 <span class="wrapper-text">
                     한 번 충전으로<br>최대 20시간 청취 가능
                 </span>
@@ -487,72 +521,72 @@
 
 
     <section class="footer-container">
-        <div class="footer-grid">
-            <div class="footer-grid-1">
-                <a href="#" class="footer-grid-click">
+        <div class="footer-main">
+            <div class="footer-main-1">
+                <a href="#" class="footer-main-click">
                     <div class="footer-gird-img">
 
                     </div>
-                    <h3 class="footer-grid-text">
+                    <h3 class="footer-main-text">
                         업무일 기준 무료 익일 배송
                     </h3>
-                    <p class="footer-grid-info">
+                    <p class="footer-main-info">
                         오후 3시 이전에 주문된<br>재고 보유 제품에 한합니다.
                     </p>
-                    <a href="#" class="footer-grid-moreview">
+                    <span class="footer-main-moreview">
                         더 알아보기
-                    </a>
+                    </span>
                 </a>
             </div>
 
-            <div class="footer-grid-2">
-                <a href="#" class="footer-grid-click">
-                    <div class="footer-gird-img">
+            <div class="footer-main-2">
+                <a href="#" class="footer-main-click">
+                    <div class="footer-main-img">
 
                     </div>
-                    <h3 class="footer-grid-text">
+                    <h3 class="footer-main-text">
                         금융 혜택
                     </h3>
-                    <p class="footer-grid-info">
+                    <p class="footer-main-info">
                         무이자 할부를 통해 Apple 제품을<br>부담 없이 구매하실 수 있습니다.
                     </p>
-                    <a href="#" class="footer-grid-moreview">
+                    <span class="footer-main-moreview">
                         더 알아보기
-                    </a>
+                    </span>
                 </a>
             </div>
 
-            <div class="footer-grid-3">
-                <a href="#" class="footer-grid-click">
+            <div class="footer-main-3">
+                <a href="#" class="footer-main-click">
                     <div class="footer-gird-img">
 
                     </div>
-                    <h3 class="footer-grid-text">
+                    <h3 class="footer-main-text">
                         도움이 필요하다면
                     </h3>
-                    <p class="footer-grid-info">
+                    <p class="footer-main-info">
                         질문이 있으신가요? 전문가와 전화로<br>상담하거나 온라인으로 채팅하세요.<br>080-330-8877로 전화 주세요.
                     </p>
-                    <a href="#" class="footer-grid-moreview">
+                    <span class="footer-main-moreview">
                         더 알아보기
-                    </a>
+                    </span>
                 </a>
             </div>
 
-            <div class="footer-grid-4">
-                <a href="#" class="footer-grid-click">
-                    <div class="footer-gird-img">
+            <div class="footer-main-4">
+                <a href="#" class="footer-main-click">
+                    <div class="footer-main-img">
 
                     </div>
-                    <h3 class="footer-grid-text">
+                    <h3 class="footer-main-text">
                         자신만의 것이라는 증표
                     </h3>
-                    <p class="footer-grid-info">
+                    <p class="footer-main-info">
                         자신의 이름이나 좋아하는 이모티콘을<br>AirPods에 각인할 수 있습니다. 무료로,<br>오직 Apple에서만.
                     </p>
-                    <a href="#" class="footer-grid-moreview">
+                    <span class="footer-main-moreview">
                         더 알아보기
-                    </a>
+                    </span>
                 </a>
             </div>
         </div>
@@ -572,189 +606,180 @@
                 <li id="detail-info-6">배터리 사용 시간은 기기 설정, 환경, 사용 방법 및 기타 여러 요인들에 따라 달라집니다.</li>
             </ol>
         </div>
-
-        <div class="footer-nav-coulmn">
-            <div class="footer-nav-contents">
-                <input type="checkbox" class="dropdown-menu-check" id="shopping-and-more">
-                <label for="shopping-and-more">
-                     <h3>쇼핑 및 알아보기</h3>
-                </label>
-                <ul>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                    <li><a href="#"></a></li>
-                </ul>
-            </div>
-
+        <nav>
             <div class="footer-nav-coulmn">
-
-            </div>
-
-            <div class="footer-nav-coulmn">
-                
-            </div>
-
-            <div class="footer-nav-coulmn">
-                
-            </div>
-
-            <div class="footer-nav-coulmn">
-                
-            </div>
- <!-- 애플로고 > 에어패드 수정하기 -->
-        <!-- <div class="footer-apple-more">
-            <div class="footer-mini-logo">
-
-            </div>
-            
-            <div class="shopping">
-                <h3 class="apple-more-name">
-                    쇼핑 및 알아보기
-                </h3>
-                <a href="#" class="apple-more-contents">
-                    <ul class="apple-more-content">
-                        <li class="more-content">스토어</li>
-                        <li class="more-content">Mac</li>
-                        <li class="more-content">iPad</li>
-                        <li class="more-content">iPhone</li>
-                        <li class="more-content">Watch</li>
-                        <li class="more-content">AirPods</li>
-                        <li class="more-content">TV 및 홈</li>
-                        <li class="more-content">AirTag</li>
-                        <li class="more-content">액세서리</li>
+                <div class="footer-nav-contents">
+                    <input type="checkbox" class="dropdown-menu-check" id="shopping-and-more">
+                    <label for="shopping-and-more">
+                        <h3>쇼핑 및 알아보기</h3>
+                        <div class="plus-icon"></div>
+                    </label>
+                    <ul>
+                        <li><a href="#">스토어</a></li>
+                        <li><a href="#">Mac</a></li>
+                        <li><a href="#">iPad</a></li>
+                        <li><a href="#">iPhone</a></li>
+                        <li><a href="#">Watch</a></li>
+                        <li><a href="#">AirPods</a></li>
+                        <li><a href="#">TV 및 홈</a></li>
+                        <li><a href="#">AriTag</a></li>
+                        <li><a href="#">액세서리</a></li>
                     </ul>
-                </a>
-            </div>
+                </div>
 
-            <div class="service">
-                <h3 class="apple-more-name">
-                    서비스
-                </h3>
-                <a href="#" class="apple-more-contents">
-                    <ul class="apple-more-content">
-                        <li class="more-content">Apple Music</li>
-                        <li class="more-content">Apple TV+</li>
-                        <li class="more-content">Apple Arcade</li>
-                        <li class="more-content">iCloud</li>
-                        <li class="more-content">Apple Books</li>
-                        <li class="more-content">Apple Podcast</li>
-                        <li class="more-content">App Store</li>
-                    </ul>
-                </a>
-            </div>
+                <div class="footer-nav-coulmn">
+                    <div class="footer-nav-contents">
+                        <input type="checkbox" class="dropdown-menu-check" id="service-footer">
+                        <label for="service-footer">
+                            <h3>서비스</h3>
+                            <div class="plus-icon"></div>
+                        </label>
+                        <ul>
+                            <li><a href="#">Apple Music</a></li>
+                            <li><a href="#">Apple TV+</a></li>
+                            <li><a href="#">Apple Arcade</a></li>
+                            <li><a href="#">iCloud</a></li>
+                            <li><a href="#">Apple Books</a></li>
+                            <li><a href="#">Apple Podcast</a></li>
+                            <li><a href="#">App Store</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-contents">
+                        <input type="checkbox" class="dropdown-menu-check" id="id-footer">
+                        <label for="id-footer">
+                            <h3>계정</h3>
+                            <div class="plus-icon"></div>
+                        </label>
+                        <ul>
+                            <li><a href="#">Apple ID 관리</a></li>
+                            <li><a href="#">Apple Store 계정</a></li>
+                            <li><a href="#">iCloud.com</a></li>
+                        </ul>
+                    </div>
+                </div>
 
-            <div class="account">
-                <h3 class="apple-more-name">
-                    계정
-                </h3>
-                <a href="#" class="apple-more-contents">
-                    <ul class="apple-more-content">
-                        <li class="more-content">Apple ID 관리</li>
-                        <li class="more-content">Apple Store 계정</li>
-                        <li class="more-content">icloud.com</li>
+                <div class="footer-nav-coulmn">
+                    <div class="footer-nav-contents">
+                        <input type="checkbox" class="dropdown-menu-check" id="apple-store-footer">
+                        <label for="apple-store-footer">
+                            <h3>Apple Store</h3>
+                            <div class="plus-icon"></div>
+                        </label>
+                        <ul>
+                            <li><a href="#">매장찾기</a></li>
+                            <li><a href="#">Genius Bar</a></li>
+                            <li><a href="#">Today at Apple</a></li>
+                            <li><a href="#">Apple 캠프</a></li>
+                            <li><a href="#">Apple Store 앱</a></li>
+                            <li><a href="#">리퍼 및 특가 제품</a></li>
+                            <li><a href="#">금융 혜택</a></li>
+                            <li><a href="#">Apple Trade In</a></li>
+                            <li><a href="#">주문 상태</a></li>
+                            <li><a href="#">쇼핑 도움말</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-nav-contents">
+                    <input type="checkbox" class="dropdown-menu-check" id="business-footer">
+                    <label for="business-footer">
+                        <h3>비즈니스</h3>
+                        <div class="plus-icon"></div>
+                    </label>
+                    <ul>
+                        <li><a href="#">Apple과 비즈니스</a></li>
+                        <li><a href="#">비즈니스를 위한 제품 쇼핑하기</a></li>
                     </ul>
-                </a>
+                </div>
+                <div class="footer-nav-contents">
+                    <input type="checkbox" class="dropdown-menu-check" id="edu-footer">
+                    <label for="edu-footer">
+                        <h3>계정</h3>
+                        <div class="plus-icon"></div>
+                    </label>
+                    <ul>
+                        <li><a href="#">Apple과 교육</a></li>
+                        <li><a href="#">초중고용 제품 쇼핑하기</a></li>
+                        <li><a href="#">대학 생활을 위한 제품 쇼핑하기</a></li>
+                    </ul>
+                </div>
+                <div class="footer-nav-coulmn">
+                    <div class="footer-nav-contents">
+                        <input type="checkbox" class="dropdown-menu-check" id="value-footer">
+                        <label for="value-footer">
+                            <h3>Apple의 가치관</h3>
+                            <div class="plus-icon"></div>
+                        </label>
+                        <ul>
+                            <li><a href="#">손쉬운 사용</a></li>
+                            <li><a href="#">환경</a></li>
+                            <li><a href="#">개인정보 보호</a></li>
+                            <li><a href="#">협력업체에 대한 책임</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-nav-contents">
+                        <input type="checkbox" class="dropdown-menu-check" id="info-footer">
+                        <label for="info-footer">
+                            <h3>Apple 정보</h3>
+                            <div class="plus-icon"></div>
+                        </label>
+                        <ul>
+                            <li><a href="#">Newsroom</a></li>
+                            <li><a href="#">Apple 리더십</a></li>
+                            <li><a href="#">채용 안내</a></li>
+                            <li><a href="#">윤리 및 규정 준수</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">일자리 창출</a></li>
+                            <li><a href="#">Apple 연락처</a></li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+        </nav>
+ 
 
-            <div class="apple-store">
-                <h3 class="apple-more-name">
-                    Apple Store
-                </h3>
-                <a href="#" class="apple-more-contents">
-                    <ul class="apple-more-content">
-                        <li class="more-content">매장 찾기</li>
-                        <li class="more-content">Genius Bar</li>
-                        <li class="more-content">Today at Apple</li>
-                        <li class="more-content">Apple 캠프</li>
-                        <li class="more-content">Apple Store 앱</li>
-                        <li class="more-content">리퍼 및 특가 제품</li>
-                        <li class="more-content">금융 혜택</li>
-                        <li class="more-content">Apple Trade In</li>
-                        <li class="more-content">주문 상태</li>
-                        <li class="more-content">쇼핑 도움말</li>
-                    </ul>
-                </a>
-            </div>
-
-            <div class="business">
-                <h3 class="apple-more-name">
-                    비즈니스
-                </h3>
-                <a href="#" class="apple-more-contents">
-                    <ul class="apple-more-content">
-                        <li class="more-content">Apple과 비즈니스</li>
-                        <li class="more-content">비즈니스를 위한 제품 쇼핑하기</li>
-                    </ul>
-                </a>
-            </div>
-
-            <div class="edu">
-                <h3 class="apple-more-name">
-                   교육
-                </h3>
-                <a href="#" class="apple-more-contents">
-                    <ul class="apple-more-content">
-                        <li class="more-content">Apple과 교육</li>
-                        <li class="more-content">초중고용 제품 쇼핑하기</li>
-                        <li class="more-content">대학 생활을 위한 제품 쇼핑하기</li>
-                    </ul>
-                </a>
-            </div>
-
-            <div class="value">
-                <h3 class="apple-more-name">
-                    Apple의 가치관
-                </h3>
-                <a href="#" class="apple-more-contents">
-                    <ul class="apple-more-content">
-                        <li class="more-content">손쉬운 사용</li>
-                        <li class="more-content">환경</li>
-                        <li class="more-content">개인정보 보호</li>
-                        <li class="more-content">협력업체에 대한 책임</li>
-                    </ul>
-                </a>
-            </div>
-
-            <div class="info">
-                <h3 class="apple-more-name">
-                    Apple 정보
-                </h3>
-                <a href="#" class="apple-more-contents">
-                    <ul class="apple-more-content">
-                        <li class="more-content">Newsroom</li>
-                        <li class="more-content">Apple 리더십</li>
-                        <li class="more-content">채용 안내</li>
-                        <li class="more-content">윤리 및 규정 준수</li>
-                        <li class="more-content">이벤트</li>
-                        <li class="more-content">일자리 창출</li>
-                        <li class="more-content">Apple 연락처</li>
-                    </ul>
-                </a>
-            </div>
-        </div> -->
         <div class="footer-more-info">
             <div class="shopping-way">
                 <p>다양한 쇼핑 방법: <a href="#">Apple Store를 방문</a>하거나,
                     <a href="#">리셀러</a>를 찾아보거나, 080-330-8877번으로<br>전화하세요</p>
             </div>
 
+            
             <div class="more-info-second">
                 <div class="copyright">
                     <p>Copyright © 2022 Apple Inc. 모든 권리 보유.</p>
                 </div>
 
                 <div class="click">
-
+                    <a href="#" class="person-info">개인정보 처리방침</a>
+                    <a href="#" class="web-site">웹 사이트 이용 약관</a>
+                    <a href="#" class="sell-refund">판매 및 환불</a>
+                    <a href="#" class="law">법적 고지</a>
+                    <a href="#" class="site-map">사이트 맵</a>
                 </div>
 
                 <div class="footer-local">
                     <a href="#">대한민국</a>
+                </div>
+
+                <div class="detail-number">
+                    <p class="business-number">
+                        사업자등록번호 : 120-81-84429
+                    </p>
+                    <p class="communication-number">
+                        통신판매업신고번호 : 제 2011-서울강남-00810호
+                    </p>
+                    <p class="boss">
+                        대표이사 : PETER DENWOOD
+                    </p>
+                    <p class="address-number">
+                        주소 : 서울특별시 강남구 영동대로 517
+                    </p>
+                    <p class="main-number">
+                        대표전화 : 02-6712-6700
+                    </p>
+                    <p class="fax-number">
+                        팩스 : 02-6928-0000
+                    </p>
                 </div>
             </div>
 
